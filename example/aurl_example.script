@@ -3,7 +3,7 @@ local aurl = require("aurl.aurl")
 function init(self)
 	print(aurl["/aurl"])
 	print(aurl["/url#sprite"])
-	print(aurl["/my_url"])
+	print(aurl["game:/my_url"])
 	
 	if (aurl["/aurl"] == msg.url("/aurl")) then 
 		print("It works!")
