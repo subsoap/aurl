@@ -1,0 +1,36 @@
+local aurl = require("aurl.aurl")
+
+function init(self)
+	print(aurl["/aurl"])
+	print(aurl["/url#sprite"])
+	print(aurl["/my_url"])
+	
+	if (aurl["/aurl"] == msg.url("/aurl")) then 
+		print("It works!")
+	end
+end
+
+function final(self)
+	-- Add finalization code here
+	-- Remove this function if not needed
+end
+
+function update(self, dt)
+	-- Add update code here
+	-- Remove this function if not needed
+end
+
+function on_message(self, message_id, message, sender)
+	-- Add message-handling code here
+	-- Remove this function if not needed
+end
+
+function on_input(self, action_id, action)
+	-- Add input-handling code here
+	-- Remove this function if not needed
+end
+
+function on_reload(self)
+	-- Add reload-handling code here
+	-- Remove this function if not needed
+end

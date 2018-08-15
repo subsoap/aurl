@@ -1,0 +1,15 @@
+[bootstrap]
+main_collection = /example/main.collectionc
+
+[script]
+shared_state = 1
+
+[project]
+title = AURL
+
+[library]
+include_dirs = aurl
+
+[input]
+game_binding = /example/input/game.input_bindingc
+
