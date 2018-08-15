@@ -10,7 +10,7 @@ Require it locally or globablly if you wish to have it available in your entire 
 
 ```aurl = require("aurl.aurl")```
 	
-AURL allows you to create URLs in a single place and then reuse them instead of creating new URLs every frame.
+AURL allows you to create URLs in a single place and then reuse them instead of creating new URLs every frame. Each URL is only created once the first time it is referenced.
 
 ```
 if (aurl["/aurl"] == msg.url("/aurl")) then 
